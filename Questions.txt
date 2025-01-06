@@ -1,0 +1,35 @@
+Attributes
+
+• CRIM - per capita crime rate by town
+• ZN - the proportion of residential land zoned for lots over 25,000 sq.ft.
+• INDUS - proportion of non-retail business acres per town.
+• CHAS - Charles River dummy variable (1 if tract bounds river; 0 otherwise)
+• NOX - nitric oxides concentration (parts per 10 million)
+• RM - average number of rooms per dwelling
+• AGE - proportion of owner-occupied units built prior to 1940
+• DIS - weighted distances to five Boston employment centers
+• RAD - index of accessibility to radial highways
+• TAX - full-value property-tax rate per $10,000
+• PTRATIO - pupil-teacher ratio by town
+• B - 1000(Bk - 0.63)2 where Bk is the proportion of blacks by town
+• LSTAT - % lower status of the population
+• MEDV - Median value of owner-occupied homes in $1000’s - This is the target variable
+
+
+Questions
+
+(1) Split the dataset into training and test sets and normalize the data (optional but recommended)
+to ensure that all features are on the same scale.
+
+(2) Train a basic linear regression model on the training data to predict the median value of
+homes. Evaluate it on the test set. Report the model’s performance using metrics like
+mean squared error,
+
+(3) Compare the performance of Ridge and Lasso with the baseline model. Which one of these
+models can be trained faster? Which one provides better performance on training and testing
+examples? Also, compare the sparsity of the solutions provided by these models.
+
+(4) Explain the impact of regularization on model performance.
+
+(5) Experiment with different values of the regularization parameters (alpha) for Ridge and Lasso.
+How does changing alpha impact the coefficients and model performance?
